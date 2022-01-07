@@ -1,0 +1,75 @@
+* {
+    padding:0;
+    margin:0;
+  }
+
+header{
+    background-color: black;
+    opacity: 0.70;   
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../image/spiderman.png);
+    background-size: 100% 750px;
+    background-repeat: no-repeat;
+}
+
+.marvel {
+    width: 100px;
+    height: 50px;
+}
+
+button{
+    color: white;
+    background-color: black;
+    border-color: red;
+    height: 50px;
+    width: 160px;
+    margin-left: 120px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.menu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+}
+
+.menu li a{
+    color: white;
+}
+
+.spider_icon{
+    width: 50px;
+    height: 50px;
+    margin-right: 110px;
+}
+
+.botao{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 250px;
+    flex-wrap: wrap;
+}
+
+.miles{
+    width: 400px;
+    height: 200px;
+}
